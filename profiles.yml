@@ -1,0 +1,13 @@
+POC_CH:
+  outputs:
+    dev:
+      account: hexawarepartner.west-europe.azure
+      database: CHAUCER_POC
+      password: Chaucer_2025
+      role: CHAUCER_POC_ROLE
+      schema: CHAUCER_GOLD
+      threads: 4
+      type: snowflake
+      user: CHAUCER_SERVICE
+      warehouse: CHAUCER_POC_WH
+  target: dev
